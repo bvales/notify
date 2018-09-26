@@ -1,0 +1,559 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+p, h1, h2, h3, h4, h5, h6, a {
+    font-family: Helvetica, Arial, sans-serif;
+}
+/*-------------------------------------
+| Masthead/Header
+-------------------------------------*/
+.masthead {
+    background-image: url('../img/masthead-2.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 600px;
+}
+
+.masthead.cont{
+    background-image: url('../img/masthead.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+}
+
+.masthead.cont .theCall {
+    position: absolute;
+    left: 2%;
+    bottom: 5%;
+}
+
+.masthead.cont h1 {
+    margin: 0px;
+    padding: 0px;
+    font-size: 48px;
+}
+
+.masthead.supp{
+    background-image: url('../img/masthead-4.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+}
+
+.masthead.supp .theCall {
+    position: absolute;
+    left: 2%;
+    bottom: 5%;
+}
+
+.masthead.supp h1 {
+    margin: 0px;
+    padding: 0px;
+    font-size: 48px;
+}
+
+.masthead.priv{
+    background-image: url('../img/masthead-3.png');
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 400px;
+}
+
+.masthead.priv .theCall {
+    position: absolute;
+    left: 2%;
+    bottom: 5%;
+}
+
+.masthead.priv h1 {
+    margin: 0px;
+    padding: 0px;
+    font-size: 48px;
+}
+
+.masthead li {
+    list-style: none;
+}
+
+.masthead {
+    color: white;
+    border-top: 10px;
+    border-top-color: #628ba2;
+    border-top-style: solid;
+    position: relative;
+}
+
+.masthead .theCall {
+    position: absolute;
+    left: 330px;
+    bottom: 175px;
+}
+
+.masthead p {
+    margin: 0px;
+    margin-top: 15px;
+    padding: 0px;
+}
+
+.masthead a {
+    margin-left: 0px;
+    margin-right: 15px;
+    margin-top: 25px;
+    display: inline-block;
+    width: 52px;
+    height: 52px;
+    text-decoration: none;
+    background-color: black;
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+    border-radius: 52px;
+    font-size: 0;
+    opacity: 0.5;
+}
+
+.masthead a:hover, .socialM a:hover {
+    background-color: #628ba2;
+    opacity: 1;
+}
+
+.headIcon01 {
+    background-image: url('../img/appleIcon.png');
+}
+
+.headIcon02 {
+    background-image: url('../img/androidIcon.png');
+}
+
+.headIcon03 {
+    background-image: url('../img/windowsIcon.png');
+}
+
+/*-------------------------------------
+| Main Navigation
+-------------------------------------*/
+.nav-1 a {
+    text-decoration: none;
+    color: white;
+    list-style: none;
+    font-size: 18px;
+}
+.nav-1 ul a:hover {
+    color: #333;
+}
+.nav-1 ul {
+    text-align: center;
+    margin-top: 0px;
+    padding: 10px 0px;
+    background-color: #628ba2;
+}
+
+.nav-1 li{
+    list-style: none;
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/*-------------------------------------
+| hotPoints Article
+-------------------------------------*/
+.hotPoints {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 60px;
+    margin-bottom: 60px;
+}
+
+.hotPoints h2 {
+    margin-top: 32px;
+}
+
+.hotPoints p {
+    color: gray;
+    margin-top: 32px;
+}
+
+.hotPoints .col01 {
+    text-align: center;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.hotPoints .col01 h4 {
+    background-image: url('../img/gear.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+    display: inline-block;
+    width: 98px;
+    height: 98px;
+    background-color: #628ba2;
+    border-radius: 98px;
+    font-size: 0;
+}
+
+.hotPoints .col02 {
+    text-align: center;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.hotPoints .col02 h4 {
+    background-image: url('../img/star.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+    display: inline-block;
+    width: 98px;
+    height: 98px;
+    background-color: #628ba2;
+    border-radius: 98px;
+    font-size: 0;
+}
+
+.hotPoints .col03 {
+    text-align: center;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.hotPoints .col03 h4 {
+    background-image: url('../img/globe.png');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+    display: inline-block;
+    width: 98px;
+    height: 98px;
+    background-color: #628ba2;
+    border-radius: 98px;
+    font-size: 0;
+}
+
+/*-------------------------------------
+| bobRoss Article
+-------------------------------------*/
+article.bobRoss {
+    display: flex;
+    justify-content: center;
+    flex-flow: row;
+    margin-left: 25%;
+    margin-right: 25%;
+}
+
+/*-------------------------------------
+| Privacy Policy
+-------------------------------------*/
+.privCont {
+    /* margin-left: auto; */
+    /* margin-right: auto; */
+    margin: 0px auto 50px auto;
+    width: 75%;
+}
+
+.privCont h1, h2, h3, h4, h5, h6 {
+    color: #628ba2
+}
+
+/*-------------------------------------
+| Second Article
+-------------------------------------*/
+.scndArt {
+    background-color: #e3e3e3;
+    padding: 60px 0px 60px 0px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.scndArt p {
+    color: gray;
+}
+
+.scndArt .col01 {
+    text-align: left;
+    margin-left: 210px;
+    margin-right: 100px;
+}
+
+.scndArt .col02 {
+    text-align: center;
+    margin-right: 210px;
+}
+
+form {
+    margin: 0px;
+    padding: 0px;
+    position: relative;
+}
+
+input[type="text"] {
+    width: 150px;
+    height: 30px;
+    display: inline-block;
+	padding: 0px;
+    margin-right: 0px;
+    border-radius: 10px 0px 0px 10px;
+    margin: 0px;
+    float: left;
+}
+
+input[type="submit"] {
+    width: 100px;
+    height: 30px;
+	padding: 0px;
+    margin-left: 0px;
+    display: inline-block;
+    background-color: #628ba2;
+    border-radius: 0px 10px 10px 0px;
+    margin: 0px;
+    float: left;
+}
+
+/*-------------------------------------
+| Third Article
+-------------------------------------*/
+.thrdArt {
+    text-align: center;
+    padding-top: 60px;
+    padding-bottom: 60px;
+}
+
+.thrdArt p, .thrdArt h1, .thrdArt h2, .thrdArt h3, .thrdArt h4, .thrdArt h5, .thrdArt h6 {
+    /* TRBL */
+    padding: 0px 0px 28px 0px;
+    margin: 0px;
+}
+
+.sayHi {
+    padding-bottom: 28px;
+    padding-left: 2px;
+    padding-right: 2px;
+}
+
+.thrdArt p{
+    color: darkGray;
+    padding-left: 398px;
+    padding-right: 398px;
+    font-size: 14px;
+}
+
+.socialM {
+    padding-bottom:0px;
+    padding-top: 0px;
+    display: flex;
+    justify-content:center;
+}
+
+.socialM ul {
+    /* padding: 0px */
+}
+
+.socialM li {
+    list-style: none;
+    /* padding: 0px; */
+}
+
+.socialM a {
+    margin-left: 7px;
+    margin-right: 7px;
+    display: inline-block;
+    width: 34px;
+    height: 34px;
+    text-decoration: none;
+    background-color: black;
+
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+    border-radius: 34px;
+    font-size: 0;
+    opacity: 0.5;
+}
+
+.socialM .twitter {
+    background-image: url('../img/twitter.png');
+}
+
+.socialM .facebook {
+    background-image: url('../img/facebook.png');
+}
+
+.socialM .pinterest {
+    background-image: url('../img/pinterest.png');
+}
+
+.socialM .googlePlus {
+    background-image: url('../img/googlePlus.png');
+}
+
+.socialM .linkedin {
+    background-image: url('../img/linkedin.png');
+}
+
+.socialM .youtube {
+    background-image: url('../img/youtube.png');
+}
+
+/*-------------------------------------
+| Footer
+-------------------------------------*/
+.siteMap {
+    padding: 60px 0px 60px 0px;
+	background-color: #e3e3e3;
+}
+
+.siteMap a {
+    text-decoration: none;
+    color: #848484;
+    list-style: none;
+}
+
+.siteMap ul {
+    text-align: center;
+}
+
+.siteMap li{
+    list-style: none;
+    display: inline-block;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+/*-------------------------------------
+| Contact Form
+-------------------------------------*/
+.contForm {
+    display: flex;
+    justify-content: center;
+}
+#contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea, #contact button[type="submit"] { font:400 12px/16px "Open Sans", Helvetica, Arial, sans-serif; }
+
+#contact {
+	background:#F9F9F9;
+	margin-bottom: 50px;
+    width: 60%;
+    text-align: center;
+}
+
+#contact h3 {
+	color: #F96;
+	display: block;
+	font-size: 30px;
+	font-weight: 400;
+}
+
+#contact h4 {
+	margin:5px 0 15px;
+	display:block;
+	font-size:13px;
+}
+
+fieldset {
+	border: medium none !important;
+	margin: 0 0 10px;
+	min-width: 100%;
+	padding: 0;
+	width: 100%;
+}
+
+#contact input[type="text"], #contact input[type="email"], #contact input[type="tel"], #contact input[type="url"], #contact textarea {
+	width:100%;
+	border:1px solid #CCC;
+	background:#FFF;
+	margin:0 0 5px;
+	padding:10px;
+}
+
+#contact input[type="text"]:hover, #contact input[type="email"]:hover, #contact input[type="tel"]:hover, #contact input[type="url"]:hover, #contact textarea:hover {
+	-webkit-transition:border-color 0.3s ease-in-out;
+	-moz-transition:border-color 0.3s ease-in-out;
+	transition:border-color 0.3s ease-in-out;
+	border:1px solid #AAA;
+}
+
+#contact textarea {
+	height:100px;
+	max-width:100%;
+  resize:none;
+}
+
+#contact button[type="submit"] {
+	cursor:pointer;
+	width:100%;
+	border:none;
+	background:#628ba2;
+	color:#FFF;
+	margin:0 0 5px;
+	padding:10px;
+	font-size:15px;
+}
+
+#contact button[type="submit"]:hover {
+	background:#09C;
+	-webkit-transition:background 0.3s ease-in-out;
+	-moz-transition:background 0.3s ease-in-out;
+	transition:background-color 0.3s ease-in-out;
+}
+
+#contact button[type="submit"]:active { box-shadow:inset 0 1px 3px rgba(0, 0, 0, 0.5); }
+
+#contact input:focus, #contact textarea:focus {
+	outline:0;
+	border:1px solid #999;
+}
+::-webkit-input-placeholder {
+ color:#888;
+}
+:-moz-placeholder {
+ color:#888;
+}
+::-moz-placeholder {
+ color:#888;
+}
+:-ms-input-placeholder {
+ color:#888;
+}
+
+/*-------------------------------------
+| Media Query
+-------------------------------------*/
+@media screen and (max-width: 600px) {
+	.masthead .theCall{
+		position: absolute;
+		left: 30%;
+		bottom: 10%;
+	}
+	.nav-1 li{
+		display: block;
+		padding: 10px
+	}
+	.hotPoints{
+		display: block;
+	}
+	.scndArt{
+		display: flex;
+		justify-content: center;
+		flex-flow: column;
+	}
+	.thrdArt {
+		text-align: center;
+		padding-top: 60px;
+		padding-bottom: 60px;
+	}
+	.thrdArt p{
+		color: darkGray;
+		padding-left: 10px;
+		padding-right: 10px;
+		font-size: 14px;
+	}
+	article.bobRoss {
+		flex-flow: column;
+	}
+	article.bobRoss h1 {
+		text-align: center;
+	}
+}

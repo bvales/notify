@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>Notify Me!</title>
+    <link rel="stylesheet" href="./css/styles.css">
+	<meta name="viewport" content="width=device-width,initial-scale=1.0">
+	<style>
+		@media screen and (max-width: 600px) {
+			.masthead .theCall{
+				position: absolute;
+				left: 30%;
+				bottom: 10%;
+			}
+			.nav-1 li{
+				display: block;
+				padding: 10px
+			}
+			.hotPoints{
+				display: block;
+			}
+			.scndArt{
+				display: flex;
+				justify-content: center;
+				flex-flow: column;
+			}
+			.thrdArt {
+				text-align: center;
+				padding-top: 60px;
+				padding-bottom: 60px;
+			}
+			.thrdArt p{
+				color: darkGray;
+				padding-left: 10px;
+				padding-right: 10px;
+				font-size: 14px;
+			}
+            article.bobRoss {
+                flex-flow: column;
+            }
+		}
+	</style>
+</head>
+    <body>
+        <div class="container">
+            <div class="masthead cont">
+                <div class="theCall">
+                    <h1>Contact Us!</h1>
+                </div>
+            </div>
+            <nav class="nav-1">
+                <ul>
+                    <li><a href="./index.html">Home</a></li>
+                    <li><a href="./contact.html">Contact</a></li>
+                    <li><a href="./support.html">Support</a></li>
+                    <li><a href="./privacy.html">Privacy Policy</a></li>
+                </ul>
+            </nav>
+            <div class="contForm">
+                <form id="contact" action="" method="post">
+                    <h3>Quick Contact</h3>
+                    <h4>Contact us today, and get reply with in 24 hours!</h4>
+                    <fieldset>
+                        <input placeholder="Your name" type="text" tabindex="1" required autofocus>
+                    </fieldset>
+                    <fieldset>
+                        <input placeholder="Your Email Address" type="email" tabindex="2" required>
+                    </fieldset>
+                    <fieldset>
+                        <input placeholder="Your Phone Number" type="tel" tabindex="3" required>
+                    </fieldset>
+                    <fieldset>
+                        <input placeholder="Your Web Site starts with http://" type="url" tabindex="4" required>
+                    </fieldset>
+                    <fieldset>
+                        <textarea placeholder="Type your Message Here...." tabindex="5" required></textarea>
+                    </fieldset>
+                    <fieldset>
+                        <button name="submit" type="submit" id="contact-submit" data-submit="...Sending">Submit</button>
+                    </fieldset>
+                </form>
+            </div>
+            <article class="bobRoss">
+                <div class="bobQuote">
+                    <h1>Bob Ross is Awesome!</h1>
+                    <p>&quot;It's beautiful - and we haven't even done anything to it yet. God gave you this gift of imagination. Use it. Clouds are free they come and go as they please. I'm a water fanatic. I love water. You can't make a mistake. Anything that happens you can learn to use - and make something beautiful out of it.&quot;</p>
+
+                    <p>&quot;The secret to doing anything is believing that you can do it. Anything that you believe you can do strong enough, you can do. Anything. As long as you believe. Volunteering your time; it pays you and your whole community fantastic dividends. You can create anything that makes you happy. Get tough with it, get strong.&quot;</p>
+                </div>
+                <div class="bobImg">
+                    <a href="https://www.deviantart.com/neonicart/art/Bob-Ross-629206513" target="_blank"><img src="../img/bob_ross.png"></a>
+                </div>
+            </article>
+            <footer>
+                <div class="siteMap">
+                    <ul>
+                        <li><a href="./index.html">Home</a></li>
+                        <li><a href="./contact.html">Contact</a></li>
+                        <li><a href="./support.html">Support</a></li>
+                        <li><a href="./privacy.html">Privacy Policy</a></li>
+                    </ul>
+                </div>
+            </footer>
+        </div>
+    </body>
+</html>
